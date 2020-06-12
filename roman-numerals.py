@@ -19,4 +19,6 @@ for k,v in mapping.items():
     while my_input.startswith(v):
         final_result += k
         my_input = my_input[len(v):]
+        print(len(v))
+        print(my_input)
 print(final_result)

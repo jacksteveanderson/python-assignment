@@ -1,5 +1,5 @@
-a ="aaaaaa"
-b ="bbbbbb"
+a ="abab"
+b ="baba"
 pre_total = len(a) + len(b)
 for i in a:
     if i in b:
